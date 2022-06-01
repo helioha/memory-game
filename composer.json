@@ -1,0 +1,6 @@
+{
+    "name": "helioha/memory_game",
+    "type": "drupal-module",
+    "description": "Memory game module.",
+    "minimum-stability": "dev"
+}

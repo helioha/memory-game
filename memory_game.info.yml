@@ -1,0 +1,5 @@
+name: "Memory Game"
+description: Memory Game module.
+core_version_requirement: ^9
+package: Memory Game
+type: module

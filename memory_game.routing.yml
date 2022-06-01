@@ -1,0 +1,6 @@
+memory_game.api.create_game:
+  path: '/memory-game/api/create-game'
+  defaults:
+    _controller: 'Drupal\memory_game\Controller\MemoryGameController::createGame'
+  requirements:
+    _access: 'TRUE'
