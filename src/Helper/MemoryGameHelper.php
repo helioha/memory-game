@@ -115,5 +115,9 @@ class MemoryGameHelper {
     if ($columns > 6) {
       throw new \Exception('The number of columns must be less than or equal to 6.');
     }
+
+    if ($columns % 2 !== 0 && $rows % 2 !== 0) {
+      throw new \Exception('Either the number of rows or columns must be even.');
+    }
   }
 }
